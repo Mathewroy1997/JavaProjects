@@ -17,7 +17,7 @@ public class Leap_year {
                 System.out.printf("%d is not a leap year.", year);
                 System.out.println();
             }
-            System.out.println("Do you want to check again? Then press y.");
+            System.out.println("\nDo you want to check again? Then press y.");
 
           c = loop.next().charAt(0);
 
