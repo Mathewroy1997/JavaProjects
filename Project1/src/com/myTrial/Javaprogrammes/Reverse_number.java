@@ -14,11 +14,9 @@ public class Reverse_number {
             temp2=temp1%10;
             reverse=(reverse*10)+temp2;
             temp1=temp1/10;
-            if(temp1<10){
-                reverse=(reverse*10)+temp1;
-            }
 
-        }while(temp1>10);
+
+        }while(temp1!=0);
         System.out.printf("Reverse of the number is : %d",reverse);
     }
 }
