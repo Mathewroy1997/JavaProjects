@@ -5,6 +5,7 @@ class Persons {
     String name;
 
     void line1(){
+
         System.out.println("My name is "+name+" and I am "+age+" years old.");
     }
 }
