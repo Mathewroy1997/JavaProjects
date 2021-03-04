@@ -12,6 +12,7 @@ public class Polymorphism {
         plant1.grow();
 
         tree.fallLeaves();
+        //plant2.fallleaves();---This won't work.
 
 
 
