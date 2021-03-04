@@ -17,7 +17,7 @@ public class DirectorTask1 {
 
     String name;
     int age;
-    long phoneNo;
+    double phoneNo;
     String Address;
     int salary;
 
