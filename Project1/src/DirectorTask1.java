@@ -14,10 +14,9 @@ class Manager extends DirectorTask1{
 
 }
 public class DirectorTask1 {
-
     String name;
     int age;
-    double phoneNo;
+    long phoneNo;
     String Address;
     int salary;
 
@@ -35,13 +34,13 @@ public class DirectorTask1 {
 
         employee1.name= "John";
         employee1.age=23;
-        employee1.phoneNo=965649767;
+        employee1.phoneNo=9656497679L;
         employee1.Address="Trivandrum";
-        employee1.salary=5000;
+        employee1.salary=50000;
 
         manager1.name="Kevin";
         manager1.age=31;
-        manager1.phoneNo=965649767;
+        manager1.phoneNo=9656497679L;
         manager1.Address="Trivandrum";
         manager1.salary=10000;
 
